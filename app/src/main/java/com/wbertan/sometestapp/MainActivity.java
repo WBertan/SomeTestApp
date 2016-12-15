@@ -9,7 +9,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 
 import com.wbertan.sometestapp.fragments.FragmentAlbums;
 import com.wbertan.sometestapp.fragments.FragmentPhotoViewer;
@@ -56,14 +55,6 @@ public class MainActivity extends AppCompatActivity {
             unregisterReceiver(mainBroadcastReceiver);
         }
         super.onPause();
-    }
-
-    public RecyclerView.Adapter getAdapter() {
-        RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recyclerViewAlbums);
-        if(recyclerView != null && recyclerView.getAdapter() != null) {
-            return recyclerView.getAdapter();
-        }
-        return null;
     }
 
     private void setFragment(Fragment aFragment) {
