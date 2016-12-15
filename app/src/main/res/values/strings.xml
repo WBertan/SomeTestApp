@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SomeTestApp</string>
+    <string name="content_description_recycler_view_albums">List of Albums!</string>
+    <string name="content_description_image_view_album_id">Album Id</string>
+    <string name="content_description_recycler_view_photos">List of Photos!</string>
+    <string name="content_description_image_view_photo_thumbnail">Album Photo thumbnail</string>
+    <string name="content_description_image_view_photo">Album Photo</string>
+</resources>
